@@ -1,0 +1,38 @@
+.main-p{
+    display: flex;
+    justify-content: center;
+    /* margin: 45px 0; */
+    /* padding-left: 15vw; */
+    width: 80%;
+    align-items: center;
+    margin-top: 34px;
+
+}
+.main-p-left{
+    margin-right: 60px;
+
+}
+.main-p-right{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user-info-up{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.user-info-center{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 20px 0 ;
+}
+
+.user-info-center p {
+    cursor: pointer;
+}
+
+

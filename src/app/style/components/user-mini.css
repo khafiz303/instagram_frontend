@@ -1,0 +1,96 @@
+.user-mini{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 10px 0 10px;
+    flex-direction: column;
+    position: relative;
+  
+    
+}
+
+.user-mini  span{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user-mini  button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.shadow{
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    
+}
+
+.user-m-img{
+    display: flex;
+    gap: 10px;
+    width: 100%;    
+}
+.user-m-img img{
+    width: 13%;
+    height: 100%;
+}
+
+.df{
+    display: flex;
+    gap: 10px;
+}
+
+.df p:last-child{
+    color: blue;
+}
+
+.imgSize{
+    width: 35px!important;
+}
+#toggleOpen{
+display: block;
+}
+.toggle{
+    position: absolute;
+    right: 7px;
+    top: 50px;
+    z-index: 5;
+    padding: 10px;
+  
+    
+}
+
+
+.toggle div{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    /* background-color: rgb(249, 245, 245); */
+    border: 1px solid lightgrey;
+    background-color: #fff;
+}
+
+.toggle div p {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.toggle div:last-child{
+    color: red;
+}
+
+.del-comment{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+
+
+
+

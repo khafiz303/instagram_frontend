@@ -1,0 +1,11 @@
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input input{
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    outline: none;
+    margin-bottom: 5px;
+    padding:  10px 5px;
+}

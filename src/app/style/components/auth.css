@@ -1,0 +1,63 @@
+
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 100%;
+    border: 1px solid #DBDBDB;
+    padding: 40px;
+    margin: 10px;
+    
+    
+}
+
+.auth span{
+    color: #0070f3;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.auth span:hover {
+    color: #0056b3; /* Пример цвета ссылки при наведении */
+  }
+  
+
+.auth-img{
+    text-align: center;
+    margin: 25px  0;
+} 
+.main-auth {
+    text-align: center;
+}
+
+.main-auth p{
+    font-size: 18px;
+    line-height: 21px;
+    color: #737373;
+    
+}
+
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border span{
+    width: 100px;
+    height: 1px;
+    color: #DBDBDB;
+    border-bottom:1px solid #DBDBDB  ;
+
+}
+.border p{
+    margin: 0 5px;
+}
+
+.main-auth p:nth-child(5),
+.main-auth p:nth-child(6) {
+    font-size: 14px; /* Измените размер шрифта по вашему усмотрению */
+    font-weight: 400;
+}
+
+

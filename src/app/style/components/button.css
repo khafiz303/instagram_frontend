@@ -1,0 +1,89 @@
+.button{
+    background-color: #0095F6;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 45px;
+    color: #fff;
+    margin: 15px 0;
+    font-weight: 600;
+    
+    cursor: pointer;
+   
+    
+}
+
+.button-color{
+    background-color: rgba(239 239 239);
+    color: #000;
+    font-weight: 600;
+}
+.btn-auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #fff;
+    margin: 15px auto;
+}
+
+.auth-b{
+    max-height: 5px;
+}
+
+.auth-b a{
+    margin-left: 5px;
+    cursor: pointer;
+    color: #0095F6;
+    
+}
+
+.auth-b a:hover{
+    opacity: .6;
+    
+}
+.auth-b-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    
+}
+.auth-b-parag{
+    text-align: center  ;
+    margin: 0 auto;
+    width: 100%;
+}
+.auth-b-parag p{
+    margin-bottom: 15px;
+}
+
+
+.auth-b-logo img{
+    width: 130px;
+    height: 100%;
+
+}
+
+.btn-mini{
+    text-align: center;
+    padding: 5px;
+    background-color: lightgrey;
+    color: black;
+    max-width: 25%;
+    align-items: center;
+    padding: 0;
+    height: 25px;
+}
+
+.btn-mini-blue{
+    
+    background-color: #0095F6;
+    color: #fff;
+    max-width: 25%;
+    align-items: center;
+    padding: 0;
+    height: 25px;
+
+}

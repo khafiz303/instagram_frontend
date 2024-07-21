@@ -1,0 +1,48 @@
+.comments{
+ width: 100%;
+   
+}
+
+.comment {
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+  
+
+.coment p{
+    width: 80%;
+}
+
+
+
+.add-comment{
+    width: 100%;
+    display: flex;
+    /* border-top: 1px solid #ddd; */
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0 15px 0  ;
+
+}
+
+.add-comment input{
+    width: 88%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+   
+
+}
+
+.add-comment> p{
+    color: blue;
+    cursor: pointer;
+   
+}
+
+.comment-img{
+    width: 21px !important;
+}

@@ -1,0 +1,47 @@
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.filters {
+    width: 50%;
+    cursor: pointer;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .filter{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 33.33%;
+  }
+
+  /* Примеры фильтров */
+  .filter-original img {
+    filter: none;
+  }
+  
+  .filter-clarendon img {
+    filter: contrast(1.2) saturate(1.35);
+  }
+  
+  .filter-gingham img {
+    filter: brightness(1.1) hue-rotate(-10deg);
+  }
+  
+  .filter-moon img {
+    filter: grayscale(1);
+  }
+  
+  .filter-lark img {
+    filter: contrast(0.9) brightness(1.2) saturate(1.1);
+  }
+  
+  .filter-reyes img {
+    filter: sepia(0.22) brightness(1.1) contrast(0.85);
+  }

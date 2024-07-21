@@ -1,0 +1,153 @@
+.profile-posts{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin: 0 5%;
+    margin-top: 5vw;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.post-img{
+    width: calc(30%);
+    
+}
+.post-img img{
+    width: 100%;
+}
+.header-post{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.custom-file-label {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 8px 12px;
+    width: 40%;
+    box-sizing: border-box;
+
+}
+    #fileInput{
+    display: none;
+}
+
+.post-c-img{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        width: 90%;
+} 
+#post-c-img{
+    top: 24px;
+    left: 4px;
+}
+
+.pic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.ai-t{
+    align-items: start;
+}
+
+.preview {
+    width: 50% ;
+    height: 90%;
+    margin-bottom: 30px;
+    object-fit: cover;
+     
+}
+
+
+.filters{
+    width: 50%;
+    height: 90%;
+    margin-bottom: 30px;
+
+
+}
+
+.preview img{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    /* height: ; */
+}
+
+.card.active {
+    width: 50%; 
+
+}
+.preview{
+    width: 100%;
+}
+
+
+.caption{
+    width: 40%;
+}
+
+.caption-img{
+    display: flex;
+    gap: 10px;
+}
+
+.input-caption{
+    width: 90%;
+    margin-top: 15px;
+}
+
+.input-caption input{
+    border:none;
+    outline: none;
+
+}
+
+.postDown{
+    display: flex;
+    color: rgb( 0, 0, 0);
+    font-weight: 600;
+  
+}
+
+.postDown p:first-child {
+    text-transform: lowercase;
+    padding-right: 10px;
+}
+.postDown p:last-child {
+    font-weight: 400;
+    
+}
+
+.comment-parag{
+    cursor: pointer;
+    margin:  10px 0;
+  color: black;
+
+}
+
+.postId{
+    background-color: rgba( 0,0,0, .4);
+   
+}
+
+.like-icon {
+    fill: red; /* Изменяет цвет иконки на красный */
+    color: red;
+  }
+  
