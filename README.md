@@ -66,7 +66,7 @@ Instagram Frontend - это клиентская часть приложения
 
 ## Ссылки
 
-- [GitHub Репозиторий](https://github.com/your-username/instagram-frontend)
+- [GitHub Репозиторий](https://github.com/khafiz303/instagram_frontend.git)
 - [Документация по Next.js](https://nextjs.org/docs)
 - [Документация по Redux Toolkit](https://redux-toolkit.js.org/)
 - [Документация по Axios](https://axios-http.com/docs/intro)
