@@ -17,12 +17,12 @@ Instagram Frontend - это клиентская часть приложения
 
 ## Технологии
 
-- Node.js
-- Express.js
-- Sequelize (ORM для взаимодействия с базой данных)
-- PostgreSQL (в качестве основной базы данных)
-- JWT (JSON Web Tokens для аутентификации)
-- Docker (для контейнеризации приложения)
+- React
+- Next.js
+- Redux
+- Editor
+
+
 
 ## Установка и запуск
 
