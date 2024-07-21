@@ -29,7 +29,7 @@ Instagram Frontend - это клиентская часть приложения
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/your-username/instagram-frontend.git
+    git clone https://github.com/khafiz303/instagram_frontend.git
     ```
 
 2. Перейдите в каталог проекта:
@@ -50,7 +50,7 @@ Instagram Frontend - это клиентская часть приложения
     npm run dev
     ```
 
-   Откройте [http://localhost:3000](http://localhost:3000) в браузере, чтобы увидеть приложение.
+   Откройте [http://localhost:3001](http://localhost:3001) в браузере, чтобы увидеть приложение.
 
 5. Для сборки продакшн-версии используйте:
 
