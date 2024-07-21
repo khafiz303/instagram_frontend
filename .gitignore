@@ -1,36 +1,76 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Instagram Frontend
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+![Instagram Logo](https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png)
 
-# testing
-/coverage
+## О проекте
 
-# next.js
-/.next/
-/out/
+Instagram Frontend - это клиентская часть приложения, имитирующая функциональность Instagram. Этот проект представляет собой фронтенд для взаимодействия с API Instagram Backend Clone, обеспечивая пользователям интерфейс для регистрации, создания и просмотра постов, взаимодействия с постами (лайки, комментарии), а также подписки на других пользователей и просмотра новостной ленты.
 
-# production
-/build
+## Основные функции
 
-# misc
-.DS_Store
-*.pem
+- Регистрация и аутентификация пользователей
+- Просмотр, создание, редактирование и удаление постов
+- Лайки и комментарии к постам
+- Подписка и отписка от пользователей
+- Просмотр новостной ленты с постами
+- Открытие и управление модальными окнами профиля и постов
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+## Технологии
 
-# local env files
-.env*.local
+- Node.js
+- Express.js
+- Sequelize (ORM для взаимодействия с базой данных)
+- PostgreSQL (в качестве основной базы данных)
+- JWT (JSON Web Tokens для аутентификации)
+- Docker (для контейнеризации приложения)
 
-# vercel
-.vercel
+## Установка и запуск
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+1. Клонируйте репозиторий:
+
+    ```bash
+    git clone https://github.com/your-username/instagram-frontend.git
+    ```
+
+2. Перейдите в каталог проекта:
+
+    ```bash
+    cd instagram-frontend
+    ```
+
+3. Установите зависимости:
+
+    ```bash
+    npm install
+    ```
+
+4. Запустите приложение в режиме разработки:
+
+    ```bash
+    npm run dev
+    ```
+
+   Откройте [http://localhost:3000](http://localhost:3000) в браузере, чтобы увидеть приложение.
+
+5. Для сборки продакшн-версии используйте:
+
+    ```bash
+    npm run build
+    ```
+
+   Затем запустите приложение:
+
+    ```bash
+    npm start
+    ```
+
+## Ссылки
+
+- [GitHub Репозиторий](https://github.com/your-username/instagram-frontend)
+- [Документация по Next.js](https://nextjs.org/docs)
+- [Документация по Redux Toolkit](https://redux-toolkit.js.org/)
+- [Документация по Axios](https://axios-http.com/docs/intro)
+
+## Лицензия
+
+Этот проект лицензирован под MIT лицензией. Подробности смотрите в [LICENSE](LICENSE) файле.
