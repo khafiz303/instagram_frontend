@@ -97,10 +97,14 @@ export default function Home() {
             <img src="/images/home.png" alt="Home" />
             <img src="/images/exit.svg" onClick={exit} alt="Logout" />
             {currentUser && (
-              <Link href={`/profile/${currentUser.username}`}>
-                <img src="/images/ink.png" alt="Profile Picture" />
-              </Link>
-            )}
+                <Link href={`/profile/${currentUser.username}`} passHref>
+             
+                  <img src="/images/ink.png" alt="Profile Picture" />
+
+                
+                </Link>
+              )}
+
           </div>
         </div>
 
@@ -187,7 +191,7 @@ export default function Home() {
           <div className="post-create">
             <StoryCreate
               setCreateStory={setCreateStory}
-              username={text}
+             
               create={true}
               edit={false}
               closeModal={() => setCreateStory(false)}

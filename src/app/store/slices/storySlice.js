@@ -14,11 +14,13 @@ export const storySlice = createSlice({
   },
 
   reducers: {
-    getMyStories: (state , action) => {
-        state.stories = action.payload.stories
-      },
+    getMyStories: (state, action) => {
+      if (action.payload?.stories) {
+        state.stories = action.payload.stories;
+      }
+    },
       createMyStory:(state , action)=>{
-         let stories = [...state.stories , action.payload]
+         let stories = [...state.stories , action.payload.story]
           state.stories = stories
       },
       deleteMyStory:(state , action)=>{

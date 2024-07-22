@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
-import { createStory , deleteStory } from '@/app/store/slices/storySlice';
+import { createStory , deleteStory, getMyStories } from '@/app/store/slices/storySlice';
 
 export default function Story() {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -26,10 +26,12 @@ export default function Story() {
    dispatch(deleteStory(id))
    setHandleStory(false)
   }
-
+useEffect(()=>{
+  dispatch((getMyStories()))
+} , [allStories])
   return (
     <div className="stories">
-      {allStories.map(story => (
+      {Array.isArray(allStories)&& allStories.map(story => (
         <div className="story" key={story.id}>
           <img src="/images/ink.png" onClick={() => findStory(story)} />
         </div>
